@@ -79,6 +79,11 @@ class CF7_Fix_Asset_Loads {
 	 * @return void
 	 */
 	public function move_style_loads_to_footer() {
+		// Is Contact Form 7 even running?
+		if ( ! defined( 'WPCF7_VERSION' ) ) {
+			// No.
+			return;
+		}
 		wp_dequeue_style( 'contact-form-7' );
 		wp_dequeue_style( 'contact-form-7-rtl' );
 		wp_dequeue_style( 'jquery-ui-smoothness' );
