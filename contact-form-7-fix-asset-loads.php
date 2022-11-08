@@ -10,6 +10,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Plugin Name: Contact Form 7 - Fix Asset Loads
  * Description: Only loads JavaScript and CSS on pages where forms appear
+ * Version: 0.1.0
  * Plugin URI: https://breakfastco.xyz
  * Author: Corey Salzano
  * Author URI: https://github.com/csalzano
