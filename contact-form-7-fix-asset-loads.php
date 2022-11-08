@@ -57,12 +57,14 @@ class CF7_Fix_Asset_Loads {
 			return;
 		}
 
-		wp_enqueue_style( 'contact-form-7' );
-		if ( function_exists( 'wpcf7_is_rtl' ) && wpcf7_is_rtl() ) {
-			wp_enqueue_style( 'contact-form-7-rtl' );
-		}
-		if ( ! wpcf7_support_html5_fallback() ) {
-			wp_enqueue_style( 'jquery-ui-smoothness' );
+		if ( ! defined( 'WPCF7_LOAD_CSS' ) || WPCF7_LOAD_CSS ) {
+			wp_enqueue_style( 'contact-form-7' );
+			if ( function_exists( 'wpcf7_is_rtl' ) && wpcf7_is_rtl() ) {
+				wp_enqueue_style( 'contact-form-7-rtl' );
+			}
+			if ( ! wpcf7_support_html5_fallback() ) {
+				wp_enqueue_style( 'jquery-ui-smoothness' );
+			}
 		}
 	}
 
