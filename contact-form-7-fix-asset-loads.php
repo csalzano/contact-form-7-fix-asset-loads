@@ -14,6 +14,8 @@ defined( 'ABSPATH' ) || exit;
  * Plugin URI: https://breakfastco.xyz
  * Author: Corey Salzano
  * Author URI: https://github.com/csalzano
+ * GitHub Plugin URI: https://github.com/csalzano/contact-form-7-fix-asset-loads
+ * Primary Branch: main
  */
 
 /**
