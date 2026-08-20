@@ -55,6 +55,10 @@ class CF7_Fix_Asset_Loads {
 		if ( ! $this->cf7_form_was_loaded ) {
 			// No, do not enqueue styles and dequeue the scripts.
 			wp_dequeue_script( 'contact-form-7' );
+			// CF7 5.6+ registers `swv` as a dependency; dequeuing the parent
+			// does not drop the dependency once it has been pulled in.
+			wp_dequeue_script( 'swv' );
+			wp_dequeue_script( 'contact-form-7-html5-fallback' );
 			return;
 		}
 
