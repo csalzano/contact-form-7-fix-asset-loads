@@ -1,6 +1,7 @@
 # Contact Form 7 - Fix Asset Loads
 
-This plugin is no longer maintained and will not receive updates. Use [Julienne](https://github.com/breakfastco/julienne) instead. It includes this plugin’s Contact Form 7 behavior and more optimizations: Blocksy and Astra companion stylesheets, plus the same kind of cleanup for WPForms, WooCommerce, Paid Memberships Pro, Easy Digital Downloads, Elementor, and SVG Support.
+> [!WARNING]
+> This plugin is no longer maintained and will not receive updates. Use [Julienne](https://github.com/breakfastco/julienne) instead. It includes this plugin’s Contact Form 7 behavior and more optimizations: Blocksy and Astra companion stylesheets, plus the same kind of cleanup for WPForms, WooCommerce, Paid Memberships Pro, Easy Digital Downloads, Elementor, and SVG Support.
 
 Deactivate this plugin once Julienne is active. Both manage the same Contact Form 7 assets.
 
